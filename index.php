@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <link rel=stylesheet href="http://fast.fonts.com/t/1.css?apiType=css&projectid=00724448-82ca-40db-a430-10c5b1663e60">
-    <link rel=stylesheet href="css/test.css">
+    <link rel=stylesheet href="css/main.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
