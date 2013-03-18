@@ -1,7 +1,7 @@
 <section id="general">
 
     <div class="intro has-icon">
-        <img class="icon" src="img/common/layout/icon-curly.png" alt="{}" />
+        <img class="icon" src="img/common/icon-curly.png" alt="{}" />
         <h1>General Guidelines</h1>
     </div>
     

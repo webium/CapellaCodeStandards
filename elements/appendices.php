@@ -1,7 +1,7 @@
 <section id="appendices">
     
     <div class="intro has-icon">
-        <img class="icon" src="img/common/layout/icon-curly.png" alt="{}" />
+        <img class="icon" src="img/common/icon-curly.png" alt="{}" />
         
         <h1>Appendices</h1>
         

@@ -1,7 +1,7 @@
 <section id="performance">
 
     <div class="intro has-icon">
-        <img class="icon" src="img/common/layout/icon-curly.png" alt="{}" />
+        <img class="icon" src="img/common/icon-curly.png" alt="{}" />
         <h1>Performance</h1>
         <p>As we continue to push the limits of what the web can do, it remains just as important a web page can be used with minimal effort or wait time. The following section explains how web pages can be optimized to keep all audiences happy.</p>
     </div>

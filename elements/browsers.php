@@ -1,7 +1,7 @@
 <section id="browserTesting">
 
     <div class="intro has-icon">
-        <img class="icon" src="img/common/layout/icon-curly.png" alt="{}" />
+        <img class="icon" src="img/common/icon-curly.png" alt="{}" />
         
         <h1>Browser Testing and Support</h1>
         

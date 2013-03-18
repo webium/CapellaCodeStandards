@@ -1,7 +1,7 @@
 <section id="css">
 
     <div class="intro has-icon">
-        <img class="icon" src="img/common/layout/icon-curly.png" alt="{}" />
+        <img class="icon" src="img/common/icon-curly.png" alt="{}" />
         <h1>CSS</h1>
         
         <p>The second component of a web page is the presentation information contained in the Cascading Style Sheet (<abbr title="Cascading Style Sheets">CSS</abbr>.) Web browsers successful implementation of CSS has given a whole generation of web authors site-wide control over the look and feel of their web sites.</p>
