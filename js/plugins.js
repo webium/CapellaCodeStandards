@@ -12,7 +12,7 @@
 			var articles = [];
 				$.each(hasChild, function(i, section) {
 					$.each(section.children, function(k, article) {
-						if(article.id) articles.push('<li><a href="#'+article.id+'">'+$(article.children[0]).text()+'</a></li>');								
+						if(article.id) articles.push('<li><a href="#'+article.id+'"><i class="icon-minus"></i> '+$(article.children[0]).text()+'</a></li>');								
 					}); 
 				});
 				$('#toc-'+anchorId+' ul').append( articles.join('') );

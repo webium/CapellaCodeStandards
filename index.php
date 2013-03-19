@@ -21,7 +21,7 @@
 <header role="banner">
 	<div id="hdr">
 		<h1><a id="logo" href="http://www.capella.edu">Capella University</a></h1>
-	  <ul id="social">
+	  <ul class="social">
       <li><a href="https://github.com/webium/CapellaCodeStandards" title="Capella University Code Standards Repository" target="_blank"><i class="icon-github-text"></i></a></li>
       <li><a href="http://www.linkedin.com/company/capella-university" title="Capella University on LinkedIn" target="_blank"><i class="icon-linkedin-1"></i></a></li>
     	<li><a href="https://www.facebook.com/CapellaUniversity" title="Capella University on Facebook" target="_blank"><i class="icon-facebook-1"></i></a></li>
@@ -81,10 +81,17 @@
             
 
 <footer role="contentinfo" class="clearfix">
-	<p>
-		<span class="float_left">&copy; 2013 Capella University, All rights reserved.</span>
-		<span class="float_right">All content licensed under Creative Commons Attribution 3.0 Unported License</span>
-  </p>
+	<div id="ftr">
+		<p class="float_left">&copy; 2013 Capella University, All rights reserved.</p>
+		<ul class="social">
+      <li><a href="https://github.com/webium/CapellaCodeStandards" title="Capella University Code Standards Repository" target="_blank"><i class="icon-github-text"></i></a></li>
+      <li><a href="http://www.linkedin.com/company/capella-university" title="Capella University on LinkedIn" target="_blank"><i class="icon-linkedin-1"></i></a></li>
+    	<li><a href="https://www.facebook.com/CapellaUniversity" title="Capella University on Facebook" target="_blank"><i class="icon-facebook-1"></i></a></li>
+      <li><a href="https://twitter.com/CapellaU" title="Capella University on Twitter" target="_blank"><i class="icon-twitter-1"></i></a></li>
+      <li><a href="http://pinterest.com/capellau/" title="Capella University on Pinterest" target="_blank"><i class="icon-pinterest"></i></a></li>
+      <li><a href="http://capella.edu" title="Capella University Website" target="_blank"><i class="icon-home"></i></a></li>
+    </ul>
+  </div>
 </footer>
         
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
