@@ -170,78 +170,7 @@
         <li>Some fonts in the webfont library render poorly on Windows</li>
     </ul>
     
-    <hr />
-    
-<!--
-    <h3>Cufon</h3>
-    
-    <p>If you choose to use Cufon, it is highly recommended you use the <a href="http://cufon.shoqolate.com/js/cufon-yui.js">Cufon compressed version</a>. You will need to convert your font using the <a href="http://cufon.shoqolate.com/generate/">generator</a>.</p>
-    
-    <textarea class="brush:javascript">
-        <script src="cufon-yui.js" type="text/javascript"></script>
-        <script src="YourFont.font.js" type="text/javascript"></script>
-        <script type="text/javascript">
-            Cufon.replace('h1');        // Works without a selector engine
-            Cufon.replace('#sub1');     // Requires a selector engine for IE 6-7
-        </script>
-    </textarea>
-    
-    <p>We recommend using Cufon sparingly since it can cause a lot of overhead if applied to a large amount of text. For more info visit the <a href="https://github.com/sorccu/cufon/wiki/">Cufon Wiki</a>.</p>
-    
-    
-    <strong>Pros</strong>
-    
-    <ul>
-        <li>Wide browser support</li>
-        <li>Renders well in supported browsers</li>
-        <li>Customizable</li>
-        <li>Easy to implement</li>
-    </ul>
-    
-    
-    <strong>Cons</strong>
-    
-    <ul>
-        <li>Requires use of JS to work</li>
-        <li>Text can't be selected that uses it</li>
-        <li>Not all characters can be used</li>
-        <li>Customization can be a pain</li>
-        <li>Not always easy to apply to multiple elements, especially when adding effects like hovers</li>
-    </ul>
-    
-    <hr />
--->
-    
-    
-    <h3>Scalable Inman Flash Replacement (sIFR)</h3>
-    
-    <p>We do not recommend that you use this method but because of how widely used it is we felt it was necessary to include so you could make a properly informed decision when choosing which method to go with for customized webfonts.</p>
-    
-    <p>Despite its wide popularity among web designers, and its decent support in most browsers, the drawbacks to its use outweigh its convenience. The biggest and most obvious reason to not use sIFR is the fact that it uses Flash. Plus, in order for the Flash to even work, it requires JavaScript and the scripts must be loaded before the text you use it on is visible on the page. Not to mention that it increases page load time, and can cause a slow site to be even slower.</p>
-    
-    <p class="normalize">We'll let you do the math here.</p>
-    
-    <strong>Pros</strong>
-    
-    <ul>
-        <li>Text can be selected</li>
-        <li>Support on most browsers</li>
-        <li>Renders okay on supported browsers</li>
-    </ul>
-    
-    
-    <strong>Cons</strong>
-    
-    <ul>
-        <li>It uses Flash</li>
-        <li>Requires JavaScript for the Flash to work</li>
-        <li>It's Flash!</li>
-        <li>Text doesn't appear until the scripts load</li>
-        <li>...and it's Flash...</li>
-    </ul>
-    
-    <hr />
-    
+    <hr />        
     
     <h3>Font Licensing</h3>
     

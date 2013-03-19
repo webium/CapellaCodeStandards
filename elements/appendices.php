@@ -69,27 +69,12 @@
         <dd>
             Aptana Studio is a powerful, free and open source Ajax development environment which runs stand-alone or within Eclipse. Aptana Studio offers tooling for Ajax including HTML, CSS, DOM, and JavaScript editing and debugging, plus support via additional free plugins for PHP, Ruby on Rails, Adobe AIR, Apple iPhone development. It also features full SVN repository integration for committing, branching, tagging, merging and repository browsing. <a href="http://aptana.com/">Aptana</a>. [Linux, Mac, Windows]
         </dd>
-        
-        <dt>Geany</dt>
-        <dd>
-            Geany is a text editor using the GTK2 toolkit with basic features of an integrated development environment. It was developed to provide a small and fast IDE, which has only a few dependencies from other packages. It supports many filetypes and has some nice features. <a href="http://www.geany.org/">Geany</a>. [Linux, Mac, Windows]
-        </dd>
-        
+                
         <dt>e TextEditor</dt>
         <dd>
             E is a new text editor for Windows, with powerful editing features and quite a few unique abilities. It makes manipulating text fast and easy, and lets you focus on your writing by automating all the manual work. You can extend it in any language, and by supporting TextMate bundles, it allows you to tap into a huge and active community. <a href="http://www.e-texteditor.com/">e TextEditor</a>. [Windows]
         </dd>
 
-        <dt>Edit Plus</dt>
-        <dd>
-            EditPlus is a text editor, HTML editor and programmers editor for Windows. While it can serve as a good Notepad replacement, it also offers many powerful features for Web page authors and programmers. <a href="http://www.editplus.com/">EditPlus</a>. [Windows]
-        </dd>
-
-        <dt>Homesite</dt>
-        <dd>
-            HomeSite 5.5 provides a lean, code-only editor for web development. Advanced coding features enable you to instantly create and modify HTML, CFML, JSP, and XHTML tags, while enhanced productivity tools allow you to validate, reuse, navigate, and format code more easily. Configure Adobe (formerly Macromedia) HomeSite to fit your needs by extending its functionality and customizing the interface. <a href="http://www.adobe.com/products/homesite/">Homesite</a>. [Windows]
-        </dd>
-               
         <dt>Espresso</dt>
         <dd>
             Espresso was created by the same fellow that created the innovative CSSEdit CSS editor. Espresso features syntax highlighting, code folding, code completion, document outliner/navigators, projects, powerful find features, and built-in file transfer publishing capabilities. Finally, it has a powerful "Sugar" feature set which allows the creation of custom commands and plugins. <a href="http://macrabbit.com/espresso/">Espresso</a>. [Mac]
@@ -100,20 +85,6 @@
             BBEdit is the grand-daddy of Mac code editors for web development. Features syntax highlighting, exceptionally powerful text manipulation tools, multi-file searches, a scriptable API, text clippings, and extensive Mac Automator features. <a href="http://www.barebones.com/products/bbedit/">BBEdit</a>. [Mac]
         </dd>
         
-        <dt>TextWrangler</dt>
-        <dd>
-            The free "little brother" of BBEdit, it is a powerful raw text editor with a massive text manipulation feature set. Searches, regular expressions, text transformations, syntax highlighting and code navigation tools for a variety of different language environments. <a href="http://www.barebones.com/products/textwrangler/">TextWrangler</a>. [Mac]
-        </dd>
-        
-        <dt>UltraEdit</dt>
-        <dd>
-            Another editor that's been around for ages, this is an immensely robust and powerful text editor, able to open files limited only by the amount of memory on your computer. The feature list is virtually too much to list, with a massive list of text manipulation features, project support, powerful search and replace, hex editing, function lists, a massive list of languages supported (600+) remote file ftp, telnet, ssh, file comparison, scriptable macros, tools and compiler support, and much, much more.  <a href="http://www.ultraedit.com/products/ultraedit/">UltraEdit</a>. [Linux, Mac, Windows]
-        </dd>
-                
-        <dt>Vim</dt>
-        <dd>
-            If you have to ask, it's probably not for you. <a href="http://www.vim.org/">Vim</a> [Linux, Mac, Windows]
-        </dd>
     </dl>
 
 
