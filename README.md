@@ -22,6 +22,6 @@ We hope to encourage other developers to think about how to best standardize the
 
 The index.php file is used to include each of the .php files contained within the /elements/ directory. We have separated the different sections that make up the page into individual files so that it is easier to edit, basically making the content of the page more modular. This is also part of what we consider a best practice when dealing with large projects, as if it were an application involving lots of code, that several people work on.
 
-Each of these files include content wrapped within sections. The structure of which is used by the function that builds the Table of Contents. As long as you follow the same structure in adding a new section or article to a section the it will automatically be added to the Table of Contents.
+Each of these files include content wrapped within sections. The structure of which is used by the function that builds the Table of Contents. As long as you follow the same structure in adding a new section or article to a section it will automatically be added to the Table of Contents.
 
 

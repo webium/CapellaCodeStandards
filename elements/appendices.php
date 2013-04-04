@@ -15,16 +15,7 @@
         <li><a href="http://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
         <li><a href="https://addons.mozilla.org/en-US/firefox/addon/249">HTML Validation firefox extension</a></li>
         <li><a href="http://jigsaw.w3.org/css-validator/">CSS validator</a></li>
-        <li>Accessibility - <a href="http://bobby.watchfire.com/">Bobby Validation Service</a>
-            <ul>
-                <li>Tests individual pages for accessibility against either the W3C or Section 508 standards.</li>
-            </ul>
-        </li>
-        <li>Accessibility - <a href="http://www.cynthiasays.com/">Cynthia Says Portal</a>
-            <ul>
-                <li>Similar to Bobby, tests individual pages for accessibility against either the W3C or Section 508 standards.</li>
-            </ul>
-        </li>
+        <li>Accessibility - <a href="http://wave.webaim.com/">Wave Validation Tool</a></li>
     </ul>
 </article>
 

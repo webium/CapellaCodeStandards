@@ -3,9 +3,9 @@
     <div class="intro has-icon">
         <img class="icon" src="img/common/icon-curly.png" alt="{}" />
         
-        <h1>Search Engine Optimization</h1>     
+        <h1>SEO</h1>     
         
-        <p>An essential part of good web design and development is SEO. Well-structured code is the key to ensuring that a web page not only gets properly indexed by search engines, but made accessible to those with limited web capabilities as well.</p>
+        <p><b>Search Engine Optimization:</b> An essential part of good web design and development is SEO. Well-structured code is the key to ensuring that a web page not only gets properly indexed by search engines, but made accessible to those with limited web capabilities as well.</p>
     </div>
 
     <h2>Be aware of SEO best practices</h2>

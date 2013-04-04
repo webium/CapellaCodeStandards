@@ -13,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="img/favicon.ico"/>
     <link rel=stylesheet href="http://fast.fonts.com/t/1.css?apiType=css&projectid=00724448-82ca-40db-a430-10c5b1663e60">
-    <link rel=stylesheet href="css/main.css">
+    <link rel=stylesheet href="css/main.css?v=20130405">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
@@ -27,14 +27,18 @@
     	<li><a href="https://www.facebook.com/CapellaUniversity" title="Capella University on Facebook" target="_blank"><i class="icon-facebook-1"></i></a></li>
       <li><a href="https://twitter.com/CapellaU" title="Capella University on Twitter" target="_blank"><i class="icon-twitter-1"></i></a></li>
       <li><a href="http://pinterest.com/capellau/" title="Capella University on Pinterest" target="_blank"><i class="icon-pinterest"></i></a></li>
-      <li><a href="http://capella.edu" title="Capella University Website" target="_blank"><i class="icon-home"></i></a></li>
+<!--       <li><a href="http://capella.edu" title="Capella University Website" target="_blank"><i class="icon-home"></i></a></li> -->
     </ul>
   </div>
 </header>
 
 <div id="main" role="document">
+	
 	<div id="content">
-		<h1>FED Standards &amp; Practices</h1>
+	<div id="mobileNav">
+		<a href="#" id="menuTrigger" title="Show Menu"><i class="icon-menu"></i></a>
+		<h1><span class="fontRegular">Front-End Development</span> <span class="fontLight">Standards &amp; Practices</span></h1>
+	</div>
 		<!-- OVERVIEW SECTION -->
 		<?php include('elements/overview.php'); ?>
 
@@ -89,15 +93,15 @@
     	<li><a href="https://www.facebook.com/CapellaUniversity" title="Capella University on Facebook" target="_blank"><i class="icon-facebook-1"></i></a></li>
       <li><a href="https://twitter.com/CapellaU" title="Capella University on Twitter" target="_blank"><i class="icon-twitter-1"></i></a></li>
       <li><a href="http://pinterest.com/capellau/" title="Capella University on Pinterest" target="_blank"><i class="icon-pinterest"></i></a></li>
-      <li><a href="http://capella.edu" title="Capella University Website" target="_blank"><i class="icon-home"></i></a></li>
+<!--       <li><a href="http://capella.edu" title="Capella University Website" target="_blank"><i class="icon-home"></i></a></li> -->
     </ul>
   </div>
 </footer>
         
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>window.jQuery||document.write("<script src='js/vendor/jquery-1.9.1.min.js'>\x3C/script>");</script>
-<script src='js/plugins.js'></script>
-<script defer src='js/scripts.js'></script>
+<script src='js/plugins.js?v=20130405'></script>
+<script defer src='js/scripts.js?v=20130405'></script>
 
 <script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-39294852-1']);_gaq.push(['_setDomainName', 'capella-id.com']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script>    
  

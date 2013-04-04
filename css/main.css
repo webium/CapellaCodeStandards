@@ -78,7 +78,8 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset { margi
 body { background: #fff;  color: #000; }
 
 	/* Header ========================================================================= */
-	header {  height: 60px; width: 100%; position: relative; border-bottom: 10px solid #800D1E; background: #1A1712; }
+  header { width: 80%; position: fixed; top: 0; z-index: 4; color: #FFF; padding: 0 20% 0 0; background: #3D3D3D; }
+
 		#hdr { position: relative; margin: 0 auto; overflow: hidden; }
 		#hdr h1 { width: 212px; height: 40px; padding: 7px; margin: 0; height: 40px; }
 		#hdr h1 a { display:block; height: 70px; width:365px; position: absolute; margin: 6px 0 0; background: url('../img/common/CapellaUniversity.png') no-repeat 0 0; text-indent: -9999em; }
@@ -88,11 +89,20 @@ body { background: #fff;  color: #000; }
 					#hdr .social li a:hover { color: #551a8b; }
 
 	/* Content ========================================================================= */
-	#main { display: block; }
-		#content { display: block; width: 92%; overflow: hidden; padding: 0px 15px 40px; }
+  #main, #hdr, #ftr { width: 100%; margin: 0 auto; }
+  	#content, footer { width: 100%; float: none; padding: 0; }
+  	#content h1, #content h2, #content h3, #content h4, #content h5, #content h6, #content p{ padding: 0 20px; }
+  	#content img, #content ol, #content ul { margin-left: 20px; }
+
+  	#main { display: block; position: relative; background: #FFF; z-index: 9; }
 			#content > section { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #dcdcdc; }
 				#content > section:last-child, #content > aside:last-child { border-bottom: none; }
 				#content > section article { border-bottom: 1px #dcdcdc solid; margin-bottom: 20px; }
+
+			#mobileNav { margin: 0; padding: 1px 0 0; background: #1A1712; border-bottom: solid 1px #000; }
+				#menuTrigger { display: inline-block; font-size: 2.5em; color: #FFF; line-height: 1.25em; margin: 0; }
+				#mobileNav h1 { display: inline-block; font-size: .9em; color: #FFF; line-height: 1.25em; padding: 0; margin: 0; }
+				#mobileNav span { display: block; }
 
 	.intro { margin-bottom: 20px; border-bottom: 1px #dcdcdc solid; }
 		.intro .icon { display: inline; float: left; height: 60px; width: 60px; border-radius: 100px;  -moz-border-radius: 100px; -webkit-border-radius: 100px; -o-border-radius: 100px; background:#800d1e; margin: 0 20px 20px 0; }
@@ -100,27 +110,32 @@ body { background: #fff;  color: #000; }
 		div.intro ol, div.intro ul  { list-style-position: inside; }
 
 	/* Table of Contents ================================================================= */
-	#side { display: block; width: 95%; padding: 0;  }
+  #side { width: 80%; height: 100%; position: fixed; top: 0; z-index: 3; color: #FFF; padding: 0 20% 0 0; background: #3D3D3D; }
 		#side .toc-title { font-family:'AvenirNextLTW01-MediumC 721311', Helvetica, Arial, sans-serif; line-height: 1em; color: #005A8C; padding: 15px 0 6px 0; z-index: 0; }
 			#toc { list-style: none; margin: 0; padding: 0; }
-				#toc li { text-shadow: 0 1px 0 rgba(255, 255, 255, .7); width: 100%; }
-					#toc li a { display: block; color: #551a8b; cursor: pointer; }
-						#toc li a:hover { color: #1a1712; }
-					#toc li ul { display: none; padding: 0 0 0 10px; }
-						#toc li ul li { }
+				#toc li { width: 100%; border-bottom: solid 1px #000; }
+		#toc li.active { border-top: solid #222 2px; background: #122734; }
+			#toc li.active a { color: #999; }
+			#toc li:first-child { border-top: solid 1px #000; }
+		#toc li a { display: block; width:100%; padding: 7px 20px; }	
+			#toc li a:link, #toc li a:visited { color: #1A1712; }	
+			#toc li a:hover, #toc li a:focus { color: #06e; }	
+				#toc li ul { display: none; padding: 0 0 0 10px; }
+					#toc li ul li { }
 	
 	.anchor_link { color: rgba(137, 137, 137, 0.4); font-size: 20px; font-weight: normal; position: relative; text-decoration: none; top: 0; left: 5px; z-index: 100; }
 	.backAnchor, .backAnchor a { display: inline-block; color: #999; font-size: 12px; margin: 0; padding: 3px 4px; position: absolute; text-decoration: none; right: 5px; top: -25px; }
 	.no-anchor .backAnchor { display: none; }
 
 	/* Footer ============================================================================ */
-	footer { background: #3d3d3d; color: #fff; font-size: 11px; padding: 5px 0; margin: 0; overflow: hidden; line-height: 35px; width: 100%; }
+	footer { width: 100%; position: fixed; bottom: 0; background: #3d3d3d; color: #FFF; font-size: 11px; padding: 5px 0; margin: 0; overflow: hidden; line-height: 35px;  z-index: 10; }
 		#ftr { position: relative; margin: 0 auto; overflow: hidden; }
 		footer p { width: 60%; color: #CCCCCC; margin: 0 auto; padding: 5px 0; }
 		footer .social { width: 32%; float: right; clear: right; margin: 0; padding: 7px 7px 7px 0; z-index: 1; }
 			footer .social li { display: inline-block; vertical-align: top; margin-left: 10px; }
 				footer .social li a { display: inline; width: 20px; height: 20px; font-size: 1.25em; color: #ccc; }
 					footer .social li a:hover { color: #551a8b; }
+
 
 	/* Code Display ====================================================================== */
 	textarea[class~="brush:js"], textarea[class~="brush:css"], textarea[class~="brush:php"], textarea[class~="brush:html"], textarea[class~="brush:csharp"] { display: none; }
@@ -311,22 +326,50 @@ textarea[contenteditable] { -webkit-appearance: none; }
 }
 @media only screen and (min-width: 600px) {
   /* 600 =================================================== */
+
 }
 @media only screen and (min-width: 768px) {
   /* 768 =================================================== */
-  #main, #hdr, #ftr { width: 740px; margin: 0 auto; }
+  #hdr, #ftr { width: 740px; margin: 0 auto; }
+  #main { width: 63%; }
   	#content, footer p { width: 63%; float: left; clear: left; }
   #side, .social { width: 30%; max-width: 300px; float: left; clear: right; padding: 15px 0 6px 20px; }
 		#side .toc-title { position: fixed; top:30px; border-bottom: 1px solid #005A8C; border-top: 10px solid #005A8C; z-index: 0; }
 			#toc { position: fixed; top: 125px; max-width: 300px; }
+
+	header {  height: 60px; width: 100%; position: relative; border-bottom: 10px solid #800D1E; background: #1A1712; }
+
+	#main { display: block; position: relative; background: #FFF; z-index: 9; }
+		#content { display: block; width: 92%; overflow: hidden; padding: 0px 15px 40px; }
+			#menu-trigger { display: none; }
+			#mobileNav { margin: 0; padding: 1px 0 0; background: #FFF; border-bottom: none; }
+				#mobileNav h1 { color: #000; }
+
+	#side { display: block; float: right; clear: right; position: relative; color: #000; padding: 0; background: #FFF;  }
+		#side .toc-title { font-family:'AvenirNextLTW01-MediumC 721311', Helvetica, Arial, sans-serif; line-height: 1em; color: #005A8C; padding: 15px 0 6px 0; z-index: 0; }
+			#toc { list-style: none; margin: 0; padding: 0; }
+				#toc li { text-shadow: 0 1px 0 rgba(255, 255, 255, .7); width: 100%; }
+					#toc li a { display: block; color: #551a8b; cursor: pointer; }
+						#toc li a:hover { color: #1a1712; }
+					#toc li ul { display: none; padding: 0 0 0 10px; }
+						#toc li ul li { }
+
+	footer { background: #3d3d3d; color: #fff; font-size: 11px; padding: 5px 0; margin: 0; overflow: hidden; line-height: 35px; width: 100%; }
+		#ftr { position: relative; margin: 0 auto; overflow: hidden; }
+		footer p { width: 60%; color: #CCCCCC; margin: 0 auto; padding: 5px 0; }
+		footer .social { width: 32%; float: right; clear: right; margin: 0; padding: 7px 7px 7px 0; z-index: 1; }
+			footer .social li { display: inline-block; vertical-align: top; margin-left: 10px; }
+				footer .social li a { display: inline; width: 20px; height: 20px; font-size: 1.25em; color: #ccc; }
+					footer .social li a:hover { color: #551a8b; }
+
 }
 @media only screen and (min-width: 960px) {
   /* 960 =================================================== */
-  #main, #hdr, #ftr { width: 960px; margin: 0 auto; }
+  #hdr, #ftr { width: 960px; margin: 0 auto; }
 }
 @media only screen and (min-width: 1382px) {
   /* 1382 =================================================== */
-  body { max-width: 1440px; }
+  #hdr, #ftr { max-width: 1440px; margin: 0 auto; }
 }
 
 
