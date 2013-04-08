@@ -34,13 +34,17 @@
 
 
 <div id="main" class="clearfix">
-<div id="content" role="document">
+	<div id="content" role="document">
 	
-<!-- 	<div id="content"> -->
 		<div id="mobileNav">
-			<a href="#" id="menuTrigger" title="Show Menu"><i class="icon-menu"></i></a>
-			<h1><span class="fontRegular">Front-End Development</span> <span class="fontLight">Standards &amp; Practices</span></h1>
+			<div class="capellaWhite"><div class="innerWhite"></div></div>
+			<div class="capellaRed"><div class="innerRed"></div></div>
+			<div class="bezier">
+				<a href="#" id="menuTrigger" title="Show Menu"><i class="icon-menu"></i></a>
+				<h1><span class="fontRegular">Front-End Development</span> <span class="fontLight">Standards &amp; Practices</span></h1>	
+			</div>
 		</div>
+			
 		<!-- OVERVIEW SECTION -->
 		<?php include('elements/overview.php'); ?>
 
@@ -76,11 +80,10 @@
 
 		<!-- HISTORY SECTION -->
 		<?php include('elements/history.php'); ?>
-<!-- 	</div> -->
 </div>
             
   <nav id="side" role="navigation">
-  	<h1 class="toc-title">Table of Contents</h1>
+	  <h2 class="toc-title">Table of Contents</h2>
     <ul id="toc"></ul>
     <noscript><p><a href="http://enable-javascript.com">Please enable JavaScript</a>.</p></noscript>
   </nav>
