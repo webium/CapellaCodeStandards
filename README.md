@@ -3,11 +3,6 @@ Capella University Front-end Development Standards, Best Practices and Code Revi
 http://fed.capella-id.com
 
 
-## Branch Updates
-
-Update: 3/18/13 - The initial draft of the site and standards was posted
-
-
 ## Summary:
 
 This document contains guidelines for web applications built by the Creative Technology Team (front end developers) of Capella University. It is to be readily available to anyone who wishes to check or contribute to the iterative progress of our discipline's best practices.

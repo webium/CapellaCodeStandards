@@ -4,17 +4,17 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-    <title>Front-end Code Standards &amp; Best Practices | Code Review Process | Capella University</title>
-    <meta name="robots" content="noindex,nofollow" /> 
-    <meta name="description" content="Capella Front End Code Standards and Code Review Process">
-    <meta name=viewport content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="img/favicon.ico"/>
-    <link rel=stylesheet href="http://fast.fonts.com/t/1.css?apiType=css&projectid=00724448-82ca-40db-a430-10c5b1663e60">
-    <link rel=stylesheet href="css/main.css?v=20130405">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+	<meta charset="utf-8">
+  <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+  <title>Front-End Code Standards &amp; Best Practices | Front-End Code Review Process | Capella University</title>
+  <meta name="robots" content="noindex,nofollow" /> 
+  <meta name="description" content="Capella Front End Code Standards and Code Review Process">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="img/favicon.ico"/>
+  <link rel=stylesheet href="http://fast.fonts.com/t/1.css?apiType=css&projectid=00724448-82ca-40db-a430-10c5b1663e60">
+  <link rel=stylesheet href="css/main.css?v=20130405">
+  <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
 	    	
@@ -32,13 +32,15 @@
   </div>
 </header>
 
-<div id="main" role="document">
+
+<div id="main" class="clearfix">
+<div id="content" role="document">
 	
-	<div id="content">
-	<div id="mobileNav">
-		<a href="#" id="menuTrigger" title="Show Menu"><i class="icon-menu"></i></a>
-		<h1><span class="fontRegular">Front-End Development</span> <span class="fontLight">Standards &amp; Practices</span></h1>
-	</div>
+<!-- 	<div id="content"> -->
+		<div id="mobileNav">
+			<a href="#" id="menuTrigger" title="Show Menu"><i class="icon-menu"></i></a>
+			<h1><span class="fontRegular">Front-End Development</span> <span class="fontLight">Standards &amp; Practices</span></h1>
+		</div>
 		<!-- OVERVIEW SECTION -->
 		<?php include('elements/overview.php'); ?>
 
@@ -74,14 +76,16 @@
 
 		<!-- HISTORY SECTION -->
 		<?php include('elements/history.php'); ?>
-	</div>
+<!-- 	</div> -->
 </div>
             
-  <nav id="side" class="nav-right" role="navigation">
+  <nav id="side" role="navigation">
   	<h1 class="toc-title">Table of Contents</h1>
     <ul id="toc"></ul>
     <noscript><p><a href="http://enable-javascript.com">Please enable JavaScript</a>.</p></noscript>
   </nav>
+
+</div>
             
 
 <footer role="contentinfo" class="clearfix">
