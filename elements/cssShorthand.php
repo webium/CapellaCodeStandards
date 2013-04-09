@@ -6,8 +6,8 @@
     <p class="normalize">For more on reducing stylesheet code redundancy, and using CSS shorthand in general:</p>
     
     <ul>
-        <li><a href="http://qrayg.com/journal/news/css-background-shorthand">http://qrayg.com/journal/news/css-background-shorthand</a></li>
-        <li><a href="http://sonspring.com/journal/css-redundancy">http://sonspring.com/journal/css-redundancy</a></li>
-        <li><a href="http://dustindiaz.com/css-shorthand">http://dustindiaz.com/css-shorthand</a></li>
+        <li><i class="icon-minus"></i><a href="http://qrayg.com/journal/news/css-background-shorthand" target="_blank">http://qrayg.com/journal/news/css-background-shorthand</a></li>
+        <li><i class="icon-minus"></i><a href="http://sonspring.com/journal/css-redundancy" target="_blank">http://sonspring.com/journal/css-redundancy</a></li>
+        <li><i class="icon-minus"></i><a href="http://dustindiaz.com/css-shorthand" target="_blank">http://dustindiaz.com/css-shorthand</a></li>
     </ul>
 </article>

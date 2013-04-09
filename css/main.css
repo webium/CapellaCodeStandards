@@ -43,7 +43,7 @@ svg:not(:root) { overflow: hidden; }
 /* Figures ======================================================================================== */
 figure { background: #fff; border: 3px solid; border-color: #ddd #999 #666; display: block; margin: -15px -2px 10px; padding: 1px; text-align: center; box-shadow: #ccc 0 1px 3px; -moz-box-shadow: #ccc 0 1px 3px; -webkit-box-shadow: #ccc 0 1px 3px; -o-box-shadow: #ccc 0 1px 3px; }
 	figure.extra { margin-top: 10px; }
-	figure.preCode { border: none; display: block; margin: 8px 0 0 0; text-align: inherit; box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; }
+	figure.preCode { border: none; display: block; margin: 8px 0 0 0; /* text-align: inherit; */ box-shadow: none; -moz-box-shadow: none; -webkit-box-shadow: none; -o-box-shadow: none; }
 figcaption { font-size: .9rem;  font-style: italic; text-align: left; }
 /* Forms ========================================================================================== */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35rem 0.625rem 0.75rem; }
@@ -94,6 +94,8 @@ p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset { margi
   	#content h1 { color: #353535; }
   	/* #content img, #content ol, #content ul { margin-left: 20px; } */
   	#content img { margin-left: 20px; }
+  	#content ul { margin-left: 1.85rem; }
+  	#content li { text-indent: -1.45rem;  }
   	
   	#content { display: block; position: relative; background: #FFF; z-index: 9; }
 			#content > section { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px solid #dcdcdc; }

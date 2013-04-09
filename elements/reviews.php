@@ -40,11 +40,11 @@
     <p>A practice lead and/or interface developer must distribute the following 48 hours prior to the date of the code review:</p>
     
     <ul>
-        <li>Code for all pages, associated server-side includes, CSS, and JavaScript. These should be fully commented, printed out with line numbers along the left side, and the file/page name in the footer of each printed page.</li>
-        <li>Screenshots of each template</li>
-        <li>URLs of the templates, if applicable</li>
-        <li>A list of browsers and platforms supported by the project</li>
-        <li>A list of known issues/areas of concern</li>
+        <li><i class="icon-minus"></i>Code for all pages, associated server-side includes, CSS, and JavaScript. These should be fully commented, printed out with line numbers along the left side, and the file/page name in the footer of each printed page.</li>
+        <li><i class="icon-minus"></i>Screenshots of each template</li>
+        <li><i class="icon-minus"></i>URLs of the templates, if applicable</li>
+        <li><i class="icon-minus"></i>A list of browsers and platforms supported by the project</li>
+        <li><i class="icon-minus"></i>A list of known issues/areas of concern</li>
     </ul>
     
     <p>It is typical for code to be changed constantly until the code review is to take place. Unfortunately, this does not leave enough time for validation and testing. If this is the case, it is recommended that the code review be rescheduled to a date that ensures a proper code review.</p>

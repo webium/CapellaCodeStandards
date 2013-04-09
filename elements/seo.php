@@ -11,13 +11,13 @@
     <h2>Be aware of SEO best practices</h2>
 
     <ul>
-        <li><a href="http://24ways.org/2007/back-to-the-future-of-print">Print CSS best practices</a>.</li>
-        <li>Site/app will fit according to <a href="#_browser_resolution">Browser Resolution guidelines</a>.</li>
-        <li>Site/app will be compatible with browser requirements described in <a href="#_browser_testing_and_support">Browser Testing and Support</a>.</li>
-        <li>Be aware of Accessibility best practices, such as the 508 and WCAG standards: 
+        <li><i class="icon-minus"></i><a href="http://24ways.org/2007/back-to-the-future-of-print" target="_blank">Print CSS best practices</a>.</li>
+        <li><i class="icon-minus"></i>Site/app will fit according to <a href="#_browser_resolution" target="_blank">Browser Resolution guidelines</a>.</li>
+        <li><i class="icon-minus"></i>Site/app will be compatible with browser requirements described in <a href="#_browser_testing_and_support" target="_blank">Browser Testing and Support</a>.</li>
+        <li><i class="icon-minus"></i>Be aware of Accessibility best practices, such as the 508 and WCAG standards: 
             <ul>
-                <li><a href="http://www.section508.gov">http://www.section508.gov</a></li>
-                <li><a href="http://www.w3.org/TR/WCAG20/">http://www.w3.org/TR/WCAG20/</a>.</li>
+                <li><i class="icon-minus"></i><a href="http://www.section508.gov" target="_blank">http://www.section508.gov</a></li>
+                <li><i class="icon-minus"></i><a href="http://www.w3.org/TR/WCAG20/" target="_blank">http://www.w3.org/TR/WCAG20/</a>.</li>
             </ul>
         </li>
     </ul>
@@ -29,7 +29,7 @@
     
     <figure class="preCode">All links should be to HTML destinations.</figure>
     <textarea class="brush:html">
-        <a href="/shelf/jordan/page/2">
+        <a href="/kurt/lord/of/the/underworld">
     </textarea> 
     
     <figure class="preCode">Instead of</figure>
@@ -56,9 +56,9 @@
 
     <figure class="preCode">>Fallback non-flash version:</figure>
     <textarea class="brush:html">
-        <a href="/nike/morethanagame/" id="morethan">
-          <h4>Nike: More Than A Game</h4>
-          <h5>Experience the movement and view apparel</h5>
+        <a href="/tom/lord/of/all/humans/" id="morethan">
+          <h4>Tom: Lord of All humans</h4>
+          <h5>Experience the movement and rebel accordingly</h5>
         </a>
     </textarea>
     
@@ -70,7 +70,7 @@
     
     <h2>Google's SEO Report Card</h2>
 
-    <p><a href="http://googlewebmastercentral.blogspot.com/2010/03/googles-seo-report-card.html">Google's SEO Report Card</a> is an effort to provide Google's product teams with ideas. on how they can improve their products' pages using simple and accepted optimizations. These optimizations are intended to not only help search engines understand the content of their pages better, but also to improve their our users' experience.</p>
+    <p><a href="http://googlewebmastercentral.blogspot.com/2010/03/googles-seo-report-card.html" target="_blank">Google's SEO Report Card</a> is an effort to provide Google's product teams with ideas. on how they can improve their products' pages using simple and accepted optimizations. These optimizations are intended to not only help search engines understand the content of their pages better, but also to improve their our users' experience.</p>
 
     <p>when visiting their sites. Simple steps such as fixing 404s and broken links, simplifying URL choice, and providing easier-to-understand titles and snippets for their pages can benefit both users and search engines.</p>
 

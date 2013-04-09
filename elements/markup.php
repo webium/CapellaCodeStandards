@@ -12,15 +12,15 @@
 <article id="markupHTML5">
     <h2>HTML5</h2>
     
-    <p><a href="http://www.ibm.com/developerworks/library/wa-webstandards/index.html">HTML5</a> is a new version of HTML and XHTML. The <a href="http://www.w3.org/TR/html5/">HTML5 draft</a> specification defines a single language that can be written in HTML and XML. It attempts to solve issues found in previous iterations of HTML and addresses the needs of <em>web applications</em>, an area previously not adequately covered by HTML. (<a href="http://html5.org/">source</a>).</p>
+    <p><a href="http://www.ibm.com/developerworks/library/wa-webstandards/index.html" target="_blank">HTML5</a> is a new version of HTML and XHTML. The <a href="http://www.w3.org/TR/html5/" target="_blank">HTML5 draft</a> specification defines a single language that can be written in HTML and XML. It attempts to solve issues found in previous iterations of HTML and addresses the needs of <em>web applications</em>, an area previously not adequately covered by HTML. (<a href="http://html5.org/" target="_blank">source</a>).</p>
     
     <p>We will use the HTML5 Doctype and HTML5 features when appropriate.</p>
     
-    <p>We will test our markup against the <a href="http://validator.w3.org/">W3C validator</a>, to ensure that the markup is well formed. 100% valid code is not a goal, but validation certainly helps to write more maintainable sites as well as debugging code. <b>We do not guarantee code is 100% valid, but instead assures the cross-browser experience is fairly consistent</b>.</p>
+    <p>We will test our markup against the <a href="http://validator.w3.org/" target="_blank">W3C validator</a>, to ensure that the markup is well formed. 100% valid code is not a goal, but validation certainly helps to write more maintainable sites as well as debugging code. <b>We do not guarantee code is 100% valid, but instead assure the cross-browser experience is consistent</b>.</p>
 
     <h2 id="h5bp">Template</h2>
     
-    <p>For HTML5 Documents we use a modified version of <a href="http://html5boilerplate.com/">H5BP</a> modified for our own project needs. <a href="https://github.com/webium/CapellaBoilerPlate">Fork the Github repository</a>.</p>
+    <p>For HTML5 Documents we use a modified version of <a href="http://html5boilerplate.com/" target="_blank">H5BP</a> modified for our own project needs. <a href="https://github.com/webium/CapellaBoilerPlate" target="_blank">Fork the Github repository</a>.</p>
 </article>
     
 <article id="markupDoctype">
@@ -90,18 +90,18 @@
     <p>The following are general guidelines for structuring your HTML markup. Authors are reminded to always use markup which represents the semantics of the content in the document being created.</p>
     
     <ul>
-        <li>Use actual P elements for paragraph delimiters as opposed to multiple BR tags.</li>
-        <li>Make use of DL (definition lists) and BLOCKQUOTE, when appropriate.</li>
-        <li>Items in list form should always be housed in a UL, OL, or DL, never a set of DIVs or Ps.</li>
-        <li>Use <code>label</code> fields to label each form field, the <code>for</code> attribute should associate itself with the input field, so users can click the labels. 
-            <code>cursor:pointer;</code> on the label is wise, as well. <sup><a href="http://www.accessifyforum.com/viewtopic.php?t=1926#14178">note 1</a> 
-            <a href="http://www.accessifyforum.com/viewtopic.php?t=6738">note 2</a></sup>
+        <li><i class="icon-minus"></i>Use actual P elements for paragraph delimiters as opposed to multiple BR tags.</li>
+        <li><i class="icon-minus"></i>Make use of DL (definition lists) and BLOCKQUOTE, when appropriate.</li>
+        <li><i class="icon-minus"></i>Items in list form should always be housed in a UL, OL, or DL, never a set of DIVs or Ps.</li>
+        <li><i class="icon-minus"></i>Use <code>label</code> fields to label each form field, the <code>for</code> attribute should associate itself with the input field, so users can click the labels. 
+            <code>cursor:pointer;</code> on the label is wise, as well. <sup><a href="http://www.accessifyforum.com/viewtopic.php?t=1926#14178" target="_blank">note 1</a> 
+            <a href="http://www.accessifyforum.com/viewtopic.php?t=6738" target="_blank">note 2</a></sup>
         </li>
-        <li>Do not use the size attribute on your input fields. The size attribute is relative to the font-size of the text inside the input. Instead use css width.</li>
-        <li>Place an html comment on some closing div tags to indicate what element you're closing. It will help when there is lots of nesting and indentation.</li>
-        <li>Tables shouldn't be used for page layout.</li>
-        <li>Use <a href="http://en.wikipedia.org/wiki/Microformat">microformats</a> and/or Microdata where appropriate, specifically hCard and adr.</li>
-        <li>Make use of THEAD, TBODY, and TH tags (and Scope attribute) when appropriate.
+        <li><i class="icon-minus"></i>Do not use the size attribute on your input fields. The size attribute is relative to the font-size of the text inside the input. Instead use css width.</li>
+        <li><i class="icon-minus"></i>Place an html comment on some closing div tags to indicate what element you're closing. It will help when there is lots of nesting and indentation.</li>
+        <li><i class="icon-minus"></i>Tables shouldn't be used for page layout.</li>
+        <li><i class="icon-minus"></i>Use <a href="http://en.wikipedia.org/wiki/Microformat" target="_blank">microformats</a> and/or Microdata where appropriate, specifically hCard and adr.</li>
+        <li><i class="icon-minus"></i>Make use of THEAD, TBODY, and TH tags (and Scope attribute) when appropriate.
 
             <figure class="preCode">Table markup with proper syntax (THEAD,TBODY,TH [scope])</figure>
             <textarea class="brush:html">
@@ -122,7 +122,7 @@
             </textarea>
         </li>
     
-        <li>Always use title-case for headers and titles. Do not use all caps or all lowercase titles in markup, instead apply the CSS property <code>text-transform:uppercase/lowercase</code>.</li>
+        <li><i class="icon-minus"></i>Always use title-case for headers and titles. Do not use all caps or all lowercase titles in markup, instead apply the CSS property <code>text-transform:uppercase/lowercase</code>.</li>
     </ul>   
 </article>
 

@@ -9,7 +9,7 @@
     
     <h3>@font-face</h3>
     
-    <p>The <a href="http://www.w3.org/TR/2011/WD-css3-fonts-20110324/#font-face-rule">@font-face at-rule</a> allows you to define custom fonts. It was first defined in the CSS2 specification, but was removed from CSS2.1. Currently, it's a draft recommendation for CSS3.</p>
+    <p>The <a href="http://www.w3.org/TR/2011/WD-css3-fonts-20110324/#font-face-rule" target="_blank">@font-face at-rule</a> allows you to define custom fonts. It was first defined in the CSS2 specification, but was removed from CSS2.1. Currently, it's a draft recommendation for CSS3.</p>
     
     <p>Our first and most preferred choice for customizing fonts on the web is @font-face, simply because it is part of the CSS Fonts Module working draft which means it will continue to grow in popularity as browser support grows, and ease of use for it improves as it becomes more stable.</p>
     
@@ -18,16 +18,16 @@
     <p class="normalize">The font formats included in the specification are:</p>
     
     <ul>
-        <li><strong>woff</strong>: WOFF (Web Open Font Format)</li>
-        <li><strong>ttf</strong>: TrueType</li>
-        <li><strong>ttf</strong>, <strong>otf</strong>: OpenType</li>
-        <li><strong>eot</strong>: Embedded OpenType</li>
-        <li><strong>svg</strong>, <strong>svgz</strong>: SVG Font</li>
+        <li><i class="icon-minus"></i><strong>woff</strong>: WOFF (Web Open Font Format)</li>
+        <li><i class="icon-minus"></i><strong>ttf</strong>: TrueType</li>
+        <li><i class="icon-minus"></i><strong>ttf</strong>, <strong>otf</strong>: OpenType</li>
+        <li><i class="icon-minus"></i><strong>eot</strong>: Embedded OpenType</li>
+        <li><i class="icon-minus"></i><strong>svg</strong>, <strong>svgz</strong>: SVG Font</li>
     </ul>
     
     <h4>Bulletproof @font-face</h4>
     
-    <p>For full cross-browser compatibility use Fontsprings' new <a href="http://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax">bulletproof @font-face syntax</a> (<em>latest version as of 2/21/11</em>).</p>
+    <p>For full cross-browser compatibility use Fontsprings' new <a href="http://www.fontspring.com/blog/further-hardening-of-the-bulletproof-syntax" target="_blank">bulletproof @font-face syntax</a> (<em>latest version as of 2/21/11</em>).</p>
     
     <textarea class="brush:css">
         @font-face {
@@ -43,7 +43,7 @@
         }
     </textarea>
     
-    <p>Here's a <a href="http://www.thecssninja.com/demo/css_fontface/">working demo</a> using this version of implementation.</p>
+    <p>Here's a <a href="http://www.thecssninja.com/demo/css_fontface/" target="_blank">working demo</a> using this version of implementation.</p>
     
     <h4>Cross-Browser Compatibility</h4>
     
@@ -62,35 +62,35 @@
     <h4>Tips for @font-face</h4>
     
     <ul>
-        <li>IE 6–8 will only accept a TrueType font packaged as an EOT.</li>
-        <li>font-weight and font-style have different meanings within <code>@font-face</code>. 
+        <li><i class="icon-minus"></i>IE 6–8 will only accept a TrueType font packaged as an EOT.</li>
+        <li><i class="icon-minus"></i>font-weight and font-style have different meanings within <code>@font-face</code>. 
             Declarations where <code>font-weight:bold;</code> means this is the bold version of this typeface, rather than apply bold to this text</li>
-        <li><a href="http://paulirish.com/2010/font-face-gotchas/">@font-face gotchas</a></li>
+        <li><i class="icon-minus"></i><a href="http://paulirish.com/2010/font-face-gotchas/" target="_blank">@font-face gotchas</a></li>
     </ul>
     
     <strong>Pros</strong>
     
     <ul>
-        <li>Easy to implement</li>
-        <li>Large variety of APIs</li>
-        <li>Customizable</li>
-        <li>Easy to add to elements</li>
-        <li>Nothing required besides CSS</li>
-        <li>Is currently part of the working draft of CSS Fonts Module 3</li>
+        <li><i class="icon-minus"></i>Easy to implement</li>
+        <li><i class="icon-minus"></i>Large variety of APIs</li>
+        <li><i class="icon-minus"></i>Customizable</li>
+        <li><i class="icon-minus"></i>Easy to add to elements</li>
+        <li><i class="icon-minus"></i>Nothing required besides CSS</li>
+        <li><i class="icon-minus"></i>Is currently part of the working draft of CSS Fonts Module 3</li>
     </ul>
     
     <strong>Cons</strong>
     
     <ul>
-        <li>Limited browser support if used improperly</li>
-        <li>Some older versions of modern browsers (Chrome, Opera) don't always render well. Text can have rough edges. <em>**I have not been able to confirm whether this is still an issue now or not.</em></li>
+        <li><i class="icon-minus"></i>Limited browser support if used improperly</li>
+        <li><i class="icon-minus"></i>Some older versions of modern browsers (Chrome, Opera) don't always render well. Text can have rough edges. <em>**I have not been able to confirm whether this is still an issue now or not.</em></li>
     </ul>
     
     <hr />  
     
     <h3>Fast Fonts</h3>
     
-    <p>Using <a href="https://fonts.com">Fast Fonts</a> has its advantages and shouldn't be completely disregarded when choosing which method to use for adding custom fonts to a web site. It has strong platform integration and is a scalable and popular service. It can be used with Google Webfonts and is easily added to WordPress, Posterous, Typepad, and other similar CMS powered sites.</p>
+    <p>Using <a href="https://fonts.com" target="_blank">Fast Fonts</a> has its advantages and shouldn't be completely disregarded when choosing which method to use for adding custom fonts to a web site. It has strong platform integration and is a scalable and popular service. It can be used with Google Webfonts and is easily added to WordPress, Posterous, Typepad, and other similar CMS powered sites.</p>
     
     <p>However, full use of Fast Fonts doesn't come without a cost</a>. If you need to use it on a project you will have to get permission. Send the request to Kurt along with the domain names you'll be using it on (including local development urls), and total page views for your site for the past 30 days.</p>
     
@@ -99,14 +99,14 @@
 
     <h3>Google WebFonts API &amp; Font Loader</h3>
     
-    <p>There are two options available with <a href="https://code.google.com/apis/webfonts/">Google Webfonts</a>. Both options have their downsides of course but they can be just as good to use as <code>@font-face</code>, it all depends on a projects needs.</p>
+    <p>There are two options available with <a href="https://code.google.com/apis/webfonts/" target="_blank">Google Webfonts</a>. Both options have their downsides of course but they can be just as good to use as <code>@font-face</code>, it all depends on a projects needs.</p>
     
     <h4>Webfonts API</h4>
     
-    <p><a href="https://code.google.com/apis/webfonts/docs/getting_started.html">Google's Webfonts API</a> essentially does the same thing as <code>@font-face</code>, it just does all the hard work for you, providing wider browser support.The major drawback to this method is the very small font library it uses. To make it work all you need to do is include the stylesheet + the font name.</p>
+    <p><a href="https://code.google.com/apis/webfonts/docs/getting_started.html" target="_blank">Google's Webfonts API</a> essentially does the same thing as <code>@font-face</code>, it just does all the hard work for you, providing wider browser support.The major drawback to this method is the very small font library it uses. To make it work all you need to do is include the stylesheet + the font name.</p>
     
     <textarea class="brush:html">
-        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Font+Name">
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Font+Name" target="_blank">
     </textarea>
     
     <p class="normalize">Then define a style for the selector you want to apply the font to:</p>
@@ -120,7 +120,7 @@
 
     <h3>Webfont Loader</h3>
     
-    <p>Another option Google offers is the <a href="https://code.google.com/apis/webfonts/docs/webfont_loader.html">Webfont Loader</a> which is a JavaScript library that allows for more control than the font API does. You can also use multiple webfont providers like Typekit. To use it include the script in your page:</p>
+    <p>Another option Google offers is the <a href="https://code.google.com/apis/webfonts/docs/webfont_loader.html" target="_blank">Webfont Loader</a> which is a JavaScript library that allows for more control than the font API does. You can also use multiple webfont providers like Typekit. To use it include the script in your page:</p>
     
     <textarea class="brush:javascript">
         <script type="text/javascript">
@@ -140,7 +140,7 @@
     <p class="normalize">Including the webfont.js file this way is faster if not already using the Ajax APIs. Otherwise you should use this:</p>
     
     <textarea class="brush:javascript">
-        <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="text/javascript" src="https://www.google.com/jsapi" target="_blank"></script>
         <script type="text/javascript">
             google.load("webfont", "1");
             google.setOnLoadCallback(function() {
@@ -154,41 +154,41 @@
     <strong>Pros</strong>
     
     <ul>
-        <li>Very easy to implement</li>
-        <li>Wide browser support</li>
-        <li>Can be combined with Typekit</li>
-        <li>Customizable when using the font loader</li>
-        <li>API does the same thing as <code>@font-face</code></li>
+        <li><i class="icon-minus"></i>Very easy to implement</li>
+        <li><i class="icon-minus"></i>Wide browser support</li>
+        <li><i class="icon-minus"></i>Can be combined with Typekit</li>
+        <li><i class="icon-minus"></i>Customizable when using the font loader</li>
+        <li><i class="icon-minus"></i>API does the same thing as <code>@font-face</code></li>
     </ul>
     
     <strong>Cons</strong>
     
     <ul>
-        <li>Very small font library if using the font API</li>
-        <li>Using the Webfont Loader requires the use of JavaScript to work</li>
-        <li>Most browsers will load the rest of the page first, leaving a blank space where the text would be, or otherwise show the fallback option if one exists, until the page fully loads.</li>
-        <li>Some fonts in the webfont library render poorly on Windows</li>
+        <li><i class="icon-minus"></i>Very small font library if using the font API</li>
+        <li><i class="icon-minus"></i>Using the Webfont Loader requires the use of JavaScript to work</li>
+        <li><i class="icon-minus"></i>Most browsers will load the rest of the page first, leaving a blank space where the text would be, or otherwise show the fallback option if one exists, until the page fully loads.</li>
+        <li><i class="icon-minus"></i>Some fonts in the webfont library render poorly on Windows</li>
     </ul>
     
     <hr />        
     
     <h3>Font Licensing</h3>
     
-    <p>Even though you can transform just about any font into a web font file, you should still make sure it is legally okay for you to do so. Many foundries have updated their conditions to specify how their fonts can be used on the web. View <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=UNESCO_Font_Lic">Font Licensing and Protection Details</a> for more information.</p>
+    <p>Even though you can transform just about any font into a web font file, you should still make sure it is legally okay for you to do so. Many foundries have updated their conditions to specify how their fonts can be used on the web. View <a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&item_id=UNESCO_Font_Lic" target="_blank">Font Licensing and Protection Details</a> for more information.</p>
     
     <hr />
     
     <h3>Specifications &amp; Font File Formats</h3>
     
     <ul>
-        <li><a href="http://www.w3.org/TR/1998/REC-CSS2-19980512/fonts.html#font-descriptions">CSS 2 Fonts</a> &ndash; May 1998 (Obsolete)</li>
-        <li><a href="http://www.w3.org/TR/css3-fonts/">CSS 3 Fonts</a> &ndash; Working Draft 2009 </li>
-        <li><a href="http://www.w3.org/TR/css3-fonts/">CSS Fonts Module</a> &ndash; W3C Working Draft March 2011</li>
-        <li><a href="http://www.w3.org/TR/WOFF/">WOFF Font Format</a> &ndash; Working Draft 2010</li>
-        <li><a href="http://www.w3.org/TR/SVG/fonts.html">SVG Font Format</a></li>
-        <li><a href="http://www.w3.org/Submission/EOT/">Embedded Open Type (EOT) File Format</a></li>
-        <li><a href="http://www.microsoft.com/typography/otspec/">Microsoft Open Type Specification</a></li>
-        <li><a href="http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#9.e">OpenType Feature File Specification</a> </li>
-        <li><a href="http://developer.apple.com/fonts/TTRefMan/">Apple True Type Reference</a> </li>
+        <li><i class="icon-minus"></i><a href="http://www.w3.org/TR/1998/REC-CSS2-19980512/fonts.html#font-descriptions" target="_blank">CSS 2 Fonts</a> &ndash; May 1998 (Obsolete)</li>
+        <li><i class="icon-minus"></i><a href="http://www.w3.org/TR/css3-fonts/" target="_blank">CSS 3 Fonts</a> &ndash; Working Draft 2009 </li>
+        <li><i class="icon-minus"></i><a href="http://www.w3.org/TR/css3-fonts/" target="_blank">CSS Fonts Module</a> &ndash; W3C Working Draft March 2011</li>
+        <li><i class="icon-minus"></i><a href="http://www.w3.org/TR/WOFF/" target="_blank">WOFF Font Format</a> &ndash; Working Draft 2010</li>
+        <li><i class="icon-minus"></i><a href="http://www.w3.org/TR/SVG/fonts.html" target="_blank">SVG Font Format</a></li>
+        <li><i class="icon-minus"></i><a href="http://www.w3.org/Submission/EOT/" target="_blank">Embedded Open Type (EOT) File Format</a></li>
+        <li><i class="icon-minus"></i><a href="http://www.microsoft.com/typography/otspec/" target="_blank">Microsoft Open Type Specification</a></li>
+        <li><i class="icon-minus"></i><a href="http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html#9.e" target="_blank">OpenType Feature File Specification</a> </li>
+        <li><i class="icon-minus"></i><a href="http://developer.apple.com/fonts/TTRefMan/" target="_blank">Apple True Type Reference</a> </li>
     </ul>
 </article>
