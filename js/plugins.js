@@ -19,6 +19,7 @@
 	}); 
 } })(jQuery); 
 //// Table of Contents Written by Kurt Menne 
+/*
 //// Table of Contents - sub-section display Written by Kurt Menne
 (function ($) { $.fn.tocSubs = function(){ 
 	return $(this).on('click', function(){ 
@@ -26,7 +27,48 @@
 		$(this).siblings('ul').slideToggle(); 
 	}); 
 } })(jQuery); 
+*/
 //// Table of Contents - sub-section display Written by Kurt Menne
+//// Page Load - Written by Kurt Menne
+(function ($) { $.fn.zeroPageLoad = function(){ 
+	return $(this).on('click', function(){ 
+			var anchorId = $(this).parent().attr('id'); 
+			hasChild = $('#'+anchorId+':has(ul)'); 
+			pageTo = $(this).attr('href');
+			removeHash = pageTo.replace('#', '');
+			$('#toc li ul').slideUp(); 
+			$(this).siblings('ul').slideToggle();
+			//console.log(hasChild);
+			$.ajax({
+				url: './elements/'+removeHash+'.php',
+				error: function(topic){ alert('There was a problem processing your request, please try again.'); },
+				success: function(topic){
+					$('#sections').html(topic);
+					$.each(hasChild, function(i, subnav) { 
+						$.each(subnav.children, function(i, sublist) { 
+							$.each(sublist.children, function(i, subitem) { 
+								var subPage = subitem.children[0].href.split('#');
+								$.ajax({
+									url: './elements/'+subPage[1]+'.php',
+									error: function(article){ alert('There was a problem processing your request, please try again.'); },
+									success: function(article){
+										$('#'+removeHash).append(article);
+										SyntaxHighlighter.config.tagName = 'textarea';
+										SyntaxHighlighter.defaults['wrap-lines'] = false;
+										SyntaxHighlighter.defaults['auto-links'] = false;
+										SyntaxHighlighter.defaults['toolbar'] = false;
+										SyntaxHighlighter.defaults['tab-size'] = 4;
+										SyntaxHighlighter.all();
+									} //end success
+								}); //end ajax
+							}); 
+						}); 
+					}); 
+  			} //end success
+			}); //end ajax
+	}); 
+} })(jQuery); 
+//// TPage Load - Written by Kurt Menne
 ////////////// Slide Menu written by Kurt  
 (function($){ $.fn.zeroAppMenu = function(){
 		$(this).on('click', function(){	

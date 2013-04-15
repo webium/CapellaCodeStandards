@@ -1,6 +1,7 @@
 //// Table of Contents Written by Kurt Menne
 $('section').tableOContents();
-$('.section_title').tocSubs();
+//$('.section_title').tocSubs();
+$('.section_title').zeroPageLoad();
 //// Table of Contents Written by Kurt Menne
 
 //// Font Resizer Written by Kurt Menne

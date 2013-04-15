@@ -11,47 +11,41 @@
     </div>
 
 		<!-- GENERAL SECTION -->
-    <?php include('elements/cssGeneral.php'); ?>
+    <?php include('./elements/cssGeneral.php'); ?>
     
 		<!-- BOX MODEL SECTION -->
-    <?php include('elements/cssBoxModel.php'); ?>
+    <?php include('./elements/cssBoxModel.php'); ?>
 
 		<!-- NAMING CONVENTIONS SECTION -->
-    <?php include('elements/cssNaming.php'); ?>
+    <?php include('./elements/cssNaming.php'); ?>
 
 		<!-- SELECTORS SECTION -->
-    <?php include('elements/cssSelectors.php'); ?>
+    <?php include('./elements/cssSelectors.php'); ?>
 
 		<!-- SPECIFICITY SECTION -->
-    <?php include('elements/cssSpecificity.php'); ?>
+    <?php include('./elements/cssSpecificity.php'); ?>
     
 		<!-- MEASUREMENTS SECTION -->
-    <?php //include('elements/cssMeasurements.php'); ?>
+    <?php include('./elements/cssMeasurements.php'); ?>
 
 		<!-- IE BUGS SECTION -->
-    <?php include('elements/cssIEBugs.php'); ?>
+    <?php include('./elements/cssIEBugs.php'); ?>
     
 		<!-- SHORTHAND SECTION -->
-    <?php include('elements/cssShorthand.php'); ?>
+    <?php include('./elements/cssShorthand.php'); ?>
 
 		<!-- IMAGES SECTION -->
-    <?php include('elements/cssImages.php'); ?>
+    <?php include('./elements/cssImages.php'); ?>
 
 		<!-- COLOR MANGEMENT SECTION -->
-    <?php //include('elements/cssColor.php'); ?>
+    <?php //include('./elements/cssColorManagement.php'); ?>
     
 		<!-- TYPOLGRAPHY SECTION -->
-    <?php include('elements/cssTypography.php'); ?>
+    <?php include('./elements/cssTypography.php'); ?>
+    
+		<!-- CSS3 SECTION -->
+    <?php //include('./elements/cssCSS3.php'); ?>
     
     
-    
-    <h3>Use CSS3</h3>
-    
-    <p>You can do a lot of new things with the added features in the CSS3 spec, many of which are not yet fully supported by all the major browsers. That doesn't 
-    mean they can't be used today. For the things that aren't supported there are fallback libraries or other 'polyfills' which you can use to fill in the holes where
-    browsers may be lacking some support of a new feature.</p>
-    
-    <p>There are also browser specific properties or prefixes that can be used to style things too. We recommend using <a href="http://prefixr.com">Prefixr.com</a> to 
-    make sure you include all the different prefixed browser properties for the sake of cross-browser support.</p>
     
 </section>

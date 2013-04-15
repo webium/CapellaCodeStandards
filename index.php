@@ -5,12 +5,11 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
-  <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Front-End Code Standards &amp; Best Practices | Front-End Code Review Process | Capella University</title>
   <meta name="robots" content="noindex,nofollow" /> 
   <meta name="description" content="Capella Front End Code Standards and Code Review Process">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="img/favicon.ico"/>
   <link rel=stylesheet href="http://fast.fonts.com/t/1.css?apiType=css&projectid=00724448-82ca-40db-a430-10c5b1663e60">
   <link rel=stylesheet href="css/main.css?v=20130405">
@@ -44,7 +43,8 @@
 				<h1><span class="fontRegular">Front-End Development</span> <span class="fontLight">Standards &amp; Practices</span></h1>	
 			</div>
 		</div>
-			
+		
+		<div id="sections">	
 		<!-- OVERVIEW SECTION -->
 		<?php include('elements/overview.php'); ?>
 
@@ -58,7 +58,7 @@
 		<?php include('elements/css.php'); ?>
 
 		<!-- JAVSCRIPT SECTION -->
-		<?php include('elements/javascript.php'); ?>
+		<?php include('elements/js.php'); ?>
 
 		<!-- ACCESSIBILITY SECTION -->
 		<?php include('elements/accessibility.php'); ?>
@@ -80,11 +80,14 @@
 
 		<!-- HISTORY SECTION -->
 		<?php include('elements/history.php'); ?>
+		</div>
+		
 </div>
             
   <nav id="side" role="navigation">
-	  <h2 class="toc-title">Table of Contents</h2>
-    <ul id="toc"></ul>
+    <ul id="toc">
+  	  <h2 class="toc-title">Table of Contents</h2>
+    </ul>
     <noscript><p><a href="http://enable-javascript.com">Please enable JavaScript</a>.</p></noscript>
   </nav>
 

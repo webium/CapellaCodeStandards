@@ -1,4 +1,4 @@
-<section id="codereviews">
+<section id="reviews">
 
     <div class="intro has-icon">
         <img class="icon" src="img/common/icon-curly.png" alt="{}" />
