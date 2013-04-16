@@ -36,8 +36,9 @@
 			hasChild = $('#'+anchorId+':has(ul)'); 
 			pageTo = $(this).attr('href');
 			removeHash = pageTo.replace('#', '');
-			$('#toc li ul').slideUp(); 
-			$(this).siblings('ul').slideToggle();
+			//$('#toc li ul').slideUp(); 
+			//$(this).siblings('ul').slideToggle();
+			//$('html,body').animate({ scrollTop: $(pageTo).offset().top }, 1500);
 			//console.log(hasChild);
 			$.ajax({
 				url: './elements/'+removeHash+'.php',
@@ -53,12 +54,6 @@
 									error: function(article){ alert('There was a problem processing your request, please try again.'); },
 									success: function(article){
 										$('#'+removeHash).append(article);
-										SyntaxHighlighter.config.tagName = 'textarea';
-										SyntaxHighlighter.defaults['wrap-lines'] = false;
-										SyntaxHighlighter.defaults['auto-links'] = false;
-										SyntaxHighlighter.defaults['toolbar'] = false;
-										SyntaxHighlighter.defaults['tab-size'] = 4;
-										SyntaxHighlighter.all();
 									} //end success
 								}); //end ajax
 							}); 
@@ -66,11 +61,12 @@
 					}); 
   			} //end success
 			}); //end ajax
-	}); 
+	}).zeroAppMenu(); 
 } })(jQuery); 
 //// TPage Load - Written by Kurt Menne
 ////////////// Slide Menu written by Kurt  
 (function($){ $.fn.zeroAppMenu = function(){
+		if($('#menuTrigger').is(":visible")){
 		$(this).on('click', function(){	
 			var windowWidth = $(window).width();
 			$('#content').css('width', parseInt(windowWidth));
@@ -85,6 +81,7 @@
 				$('#side').css({ position: 'fixed' });
 			}
 		});
+	}
 	}
 })(jQuery);
 $('#menuTrigger').zeroAppMenu();
