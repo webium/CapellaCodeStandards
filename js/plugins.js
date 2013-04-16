@@ -38,10 +38,10 @@
 			removeHash = pageTo.replace('#', '');
 			//$('#toc li ul').slideUp(); 
 			//$(this).siblings('ul').slideToggle();
-			//$('html,body').animate({ scrollTop: $(pageTo).offset().top }, 1500);
 			//console.log(hasChild);
+		if($('#menuTrigger').is(":visible")){
 			$.ajax({
-				url: './elements/'+removeHash+'.php',
+				url: '/elements/'+removeHash+'.php',
 				error: function(topic){ alert('There was a problem processing your request, please try again.'); },
 				success: function(topic){
 					$('#sections').html(topic);
@@ -50,7 +50,7 @@
 							$.each(sublist.children, function(i, subitem) { 
 								var subPage = subitem.children[0].href.split('#');
 								$.ajax({
-									url: './elements/'+subPage[1]+'.php',
+									url: '/elements/'+subPage[1]+'.php',
 									error: function(article){ alert('There was a problem processing your request, please try again.'); },
 									success: function(article){
 										$('#'+removeHash).append(article);
@@ -61,6 +61,9 @@
 					}); 
   			} //end success
 			}); //end ajax
+		} else {
+			$('html,body').animate({ scrollTop: $(pageTo).offset().top }, 1500);
+		}
 	}).zeroAppMenu(); 
 } })(jQuery); 
 //// TPage Load - Written by Kurt Menne
@@ -84,7 +87,6 @@
 	}
 	}
 })(jQuery);
-$('#menuTrigger').zeroAppMenu();
 ////////////// Slide Menu written by Kurt  
 ////////////// Font Resize written by Kurt  
 (function ($) { $.fn.zeroFontResize = function(){ 

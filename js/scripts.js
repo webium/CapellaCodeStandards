@@ -6,8 +6,11 @@ $('.section_title').zeroPageLoad();
 
 //// Font Resizer Written by Kurt Menne
 $(window).bind('resize', function(event){ $(window).zeroFontResize(); });
-
 //// Font Resizer Written by Kurt Menne
+
+//// Mobile Menu Written by Kurt Menne
+$('#menuTrigger').zeroAppMenu();
+//// Mobile Menu Written by Kurt Menne
 
 //// Syntax Highlighter
 SyntaxHighlighter.config.tagName = 'textarea';
