@@ -40,7 +40,9 @@
 			//$(this).siblings('ul').slideToggle();
 			//console.log(hasChild);
 		if($('#menuTrigger').is(":visible")){
-			$.ajax({
+			$('section').hide();
+			$(pageTo).slideToggle();
+/*			$.ajax({
 				url: '/elements/'+removeHash+'.php',
 				error: function(topic){ alert('There was a problem processing your request, please try again.'); },
 				success: function(topic){
@@ -60,7 +62,7 @@
 						}); 
 					}); 
   			} //end success
-			}); //end ajax
+			}); //end ajax */
 		} else {
 			$('html,body').animate({ scrollTop: $(pageTo).offset().top }, 1500);
 		}
